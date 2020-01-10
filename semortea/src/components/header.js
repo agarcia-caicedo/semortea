@@ -8,12 +8,15 @@ const Header = ({ siteTitle }) => (
     style={{
       backgroundImage:  `url(${image})`,
       marginBottom: `1.45rem`,
+      backgroundSize: `contain`,
+      backgroundPosition: `center`,
     }}
   >
     <div
       style={{
         margin: `0 auto`,
         maxWidth: 960,
+        minHeight: 300,
         padding: `1.45rem 1.0875rem`,
       }}
     >
