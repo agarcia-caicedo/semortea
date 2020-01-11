@@ -1,6 +1,16 @@
 module.exports = {
   siteMetadata: {
     title: `Words Are Living Things`,
+    menuLinks:[
+      {
+        name:'home',
+        link:'/'
+      },
+      {
+        name:'blog',
+        link:'/blog'
+      }
+      ],
     description: ``,
     author: `@Semortea`,
   },

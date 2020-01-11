@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Amatic+SC&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
 
 html {
   font-family: sans-serif;
@@ -9,7 +10,7 @@ body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: rgb(8, 6, 6);
+  background-color:rgb(19, 15, 15);
 }
 article,
 aside,
@@ -203,7 +204,7 @@ html {
 }
 body {
   color: hsla(0, 0%, 90%, 0.8);
-  font-family: georgia, serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: normal;
   word-wrap: break-word;
   font-kerning: normal;
@@ -511,9 +512,7 @@ dt {
 th {
   font-weight: bold;
 }
-li {
-  margin-bottom: calc(1.45rem / 2);
-}
+
 ol li {
   padding-left: 0;
 }

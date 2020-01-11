@@ -8,19 +8,24 @@ const Header = ({ siteTitle }) => (
   <header
     style={{
       backgroundImage:  `url(${image})`,
-      marginBottom: `1.45rem`,
-      backgroundSize: `fill`,
-      backgroundPosition: `left top`,
+      backgroundSize: `contain`,
+      backgroundPosition: `relative`,
       backgroundRepeat: `no-repeat`,
       overflow: `hidden`,
       backgroundAttachment: `fixed`,
+      margin: `0 auto`,
+      maxWidth: 960,
+      backgroundColor: `black`,
     }}
   >
     <div
       style={{
-        maxWidth: `100%`,
+        margin: `0 auto`,
+        maxWidth: 960,
         minHeight: `35vh`,
         textAlign: `center`,
+        padding: `1.5rem 0rem 0rem 0rem`,
+        backgroundColor: `#00000087`,
 
         borderStyle: `solid`,
         borderWidth: `0.01rem`,
@@ -38,8 +43,7 @@ const Header = ({ siteTitle }) => (
             textDecoration: `none`,
             fontFamily: `Amatic SC`,
             fontSize:`4rem`,
-            backgroundColor: `black`,
-            borderRadius: `10%`,
+            padding: `0.25rem`,
           }}
         >
           {siteTitle}
