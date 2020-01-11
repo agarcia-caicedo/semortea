@@ -9,6 +9,7 @@ body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(8, 6, 6);
 }
 article,
 aside,
@@ -201,7 +202,7 @@ html {
   box-sizing: inherit;
 }
 body {
-  color: hsla(0, 0%, 0%, 0.8);
+  color: hsla(0, 0%, 90%, 0.8);
   font-family: georgia, serif;
   font-weight: normal;
   word-wrap: break-word;
